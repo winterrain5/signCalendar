@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2544B1941E0A7120000427A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544B1931E0A7120000427A3 /* main.m */; };
+		2544B1971E0A7120000427A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544B1961E0A7120000427A3 /* AppDelegate.m */; };
+		2544B19A1E0A7120000427A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544B1991E0A7120000427A3 /* ViewController.m */; };
+		2544B19D1E0A7120000427A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2544B19B1E0A7120000427A3 /* Main.storyboard */; };
+		2544B19F1E0A7120000427A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2544B19E1E0A7120000427A3 /* Assets.xcassets */; };
+		2544B1A21E0A7120000427A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2544B1A01E0A7120000427A3 /* LaunchScreen.storyboard */; };
+		2544B1AC1E0A86AA000427A3 /* HSCalendarHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544B1AB1E0A86AA000427A3 /* HSCalendarHeadView.m */; };
+		2544B1AF1E0A86F8000427A3 /* HSCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544B1AE1E0A86F8000427A3 /* HSCalendarView.m */; };
+		2544B1B21E0A8CFF000427A3 /* HSCalendarViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544B1B11E0A8CFF000427A3 /* HSCalendarViewFlowLayout.m */; };
+		2544B1B51E0A9083000427A3 /* HSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544B1B41E0A9083000427A3 /* HSCalendarCell.m */; };
+		2544B1B81E0B5C8C000427A3 /* HSCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544B1B71E0B5C8C000427A3 /* HSCalendarManager.m */; };
+		2544B1BB1E0B7D14000427A3 /* HSCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544B1BA1E0B7D14000427A3 /* HSCalendarModel.m */; };
+		2544B1C21E0B99F4000427A3 /* HSSignWithCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2544B1C01E0B99F4000427A3 /* HSSignWithCalendarController.m */; };
+		2544B1C31E0B99F4000427A3 /* HSSignWithCalendarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2544B1C11E0B99F4000427A3 /* HSSignWithCalendarController.xib */; };
+		25F3F4921E0BB52900FC2906 /* HSSignAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F3F4911E0BB52900FC2906 /* HSSignAlertView.m */; };
+		25F3F4951E0BB5DD00FC2906 /* CSCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F3F4941E0BB5DD00FC2906 /* CSCommonUtils.m */; };
+		25F3F4971E0BB7EB00FC2906 /* 签到金币音效.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25F3F4961E0BB7EB00FC2906 /* 签到金币音效.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2544B18F1E0A7120000427A3 /* 签到日历.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "签到日历.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2544B1931E0A7120000427A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2544B1951E0A7120000427A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2544B1961E0A7120000427A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2544B1981E0A7120000427A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2544B1991E0A7120000427A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2544B19C1E0A7120000427A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2544B19E1E0A7120000427A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2544B1A11E0A7120000427A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2544B1A31E0A7120000427A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2544B1AA1E0A86AA000427A3 /* HSCalendarHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCalendarHeadView.h; sourceTree = "<group>"; };
+		2544B1AB1E0A86AA000427A3 /* HSCalendarHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCalendarHeadView.m; sourceTree = "<group>"; };
+		2544B1AD1E0A86F8000427A3 /* HSCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCalendarView.h; sourceTree = "<group>"; };
+		2544B1AE1E0A86F8000427A3 /* HSCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCalendarView.m; sourceTree = "<group>"; };
+		2544B1B01E0A8CFF000427A3 /* HSCalendarViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCalendarViewFlowLayout.h; sourceTree = "<group>"; };
+		2544B1B11E0A8CFF000427A3 /* HSCalendarViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCalendarViewFlowLayout.m; sourceTree = "<group>"; };
+		2544B1B31E0A9083000427A3 /* HSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCalendarCell.h; sourceTree = "<group>"; };
+		2544B1B41E0A9083000427A3 /* HSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCalendarCell.m; sourceTree = "<group>"; };
+		2544B1B61E0B5C8C000427A3 /* HSCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCalendarManager.h; sourceTree = "<group>"; };
+		2544B1B71E0B5C8C000427A3 /* HSCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCalendarManager.m; sourceTree = "<group>"; };
+		2544B1B91E0B7D14000427A3 /* HSCalendarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCalendarModel.h; sourceTree = "<group>"; };
+		2544B1BA1E0B7D14000427A3 /* HSCalendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCalendarModel.m; sourceTree = "<group>"; };
+		2544B1BF1E0B99F3000427A3 /* HSSignWithCalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSSignWithCalendarController.h; path = HSCalendarView/HSSignWithCalendarController.h; sourceTree = "<group>"; };
+		2544B1C01E0B99F4000427A3 /* HSSignWithCalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSSignWithCalendarController.m; path = HSCalendarView/HSSignWithCalendarController.m; sourceTree = "<group>"; };
+		2544B1C11E0B99F4000427A3 /* HSSignWithCalendarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HSSignWithCalendarController.xib; path = HSCalendarView/HSSignWithCalendarController.xib; sourceTree = "<group>"; };
+		25F3F4901E0BB52900FC2906 /* HSSignAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSignAlertView.h; sourceTree = "<group>"; };
+		25F3F4911E0BB52900FC2906 /* HSSignAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSSignAlertView.m; sourceTree = "<group>"; };
+		25F3F4931E0BB5DD00FC2906 /* CSCommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSCommonUtils.h; sourceTree = "<group>"; };
+		25F3F4941E0BB5DD00FC2906 /* CSCommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSCommonUtils.m; sourceTree = "<group>"; };
+		25F3F4961E0BB7EB00FC2906 /* 签到金币音效.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "签到金币音效.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2544B18C1E0A7120000427A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2544B1861E0A7120000427A3 = {
+			isa = PBXGroup;
+			children = (
+				2544B1911E0A7120000427A3 /* 签到日历 */,
+				2544B1901E0A7120000427A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2544B1901E0A7120000427A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2544B18F1E0A7120000427A3 /* 签到日历.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2544B1911E0A7120000427A3 /* 签到日历 */ = {
+			isa = PBXGroup;
+			children = (
+				25F3F4961E0BB7EB00FC2906 /* 签到金币音效.mp3 */,
+				25F3F4931E0BB5DD00FC2906 /* CSCommonUtils.h */,
+				25F3F4941E0BB5DD00FC2906 /* CSCommonUtils.m */,
+				25F3F4901E0BB52900FC2906 /* HSSignAlertView.h */,
+				25F3F4911E0BB52900FC2906 /* HSSignAlertView.m */,
+				2544B1BF1E0B99F3000427A3 /* HSSignWithCalendarController.h */,
+				2544B1C01E0B99F4000427A3 /* HSSignWithCalendarController.m */,
+				2544B1C11E0B99F4000427A3 /* HSSignWithCalendarController.xib */,
+				2544B1A91E0A8641000427A3 /* HSCalendarView */,
+				2544B1951E0A7120000427A3 /* AppDelegate.h */,
+				2544B1961E0A7120000427A3 /* AppDelegate.m */,
+				2544B1981E0A7120000427A3 /* ViewController.h */,
+				2544B1991E0A7120000427A3 /* ViewController.m */,
+				2544B19B1E0A7120000427A3 /* Main.storyboard */,
+				2544B19E1E0A7120000427A3 /* Assets.xcassets */,
+				2544B1A01E0A7120000427A3 /* LaunchScreen.storyboard */,
+				2544B1A31E0A7120000427A3 /* Info.plist */,
+				2544B1921E0A7120000427A3 /* Supporting Files */,
+			);
+			path = "签到日历";
+			sourceTree = "<group>";
+		};
+		2544B1921E0A7120000427A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2544B1931E0A7120000427A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2544B1A91E0A8641000427A3 /* HSCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				2544B1AA1E0A86AA000427A3 /* HSCalendarHeadView.h */,
+				2544B1AB1E0A86AA000427A3 /* HSCalendarHeadView.m */,
+				2544B1AD1E0A86F8000427A3 /* HSCalendarView.h */,
+				2544B1AE1E0A86F8000427A3 /* HSCalendarView.m */,
+				2544B1B01E0A8CFF000427A3 /* HSCalendarViewFlowLayout.h */,
+				2544B1B11E0A8CFF000427A3 /* HSCalendarViewFlowLayout.m */,
+				2544B1B31E0A9083000427A3 /* HSCalendarCell.h */,
+				2544B1B41E0A9083000427A3 /* HSCalendarCell.m */,
+				2544B1B61E0B5C8C000427A3 /* HSCalendarManager.h */,
+				2544B1B71E0B5C8C000427A3 /* HSCalendarManager.m */,
+				2544B1B91E0B7D14000427A3 /* HSCalendarModel.h */,
+				2544B1BA1E0B7D14000427A3 /* HSCalendarModel.m */,
+			);
+			path = HSCalendarView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2544B18E1E0A7120000427A3 /* 签到日历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2544B1A61E0A7120000427A3 /* Build configuration list for PBXNativeTarget "签到日历" */;
+			buildPhases = (
+				2544B18B1E0A7120000427A3 /* Sources */,
+				2544B18C1E0A7120000427A3 /* Frameworks */,
+				2544B18D1E0A7120000427A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "签到日历";
+			productName = "签到日历";
+			productReference = 2544B18F1E0A7120000427A3 /* 签到日历.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2544B1871E0A7120000427A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = sdd;
+				TargetAttributes = {
+					2544B18E1E0A7120000427A3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 2544B18A1E0A7120000427A3 /* Build configuration list for PBXProject "签到日历" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2544B1861E0A7120000427A3;
+			productRefGroup = 2544B1901E0A7120000427A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2544B18E1E0A7120000427A3 /* 签到日历 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2544B18D1E0A7120000427A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2544B1A21E0A7120000427A3 /* LaunchScreen.storyboard in Resources */,
+				2544B19F1E0A7120000427A3 /* Assets.xcassets in Resources */,
+				2544B1C31E0B99F4000427A3 /* HSSignWithCalendarController.xib in Resources */,
+				2544B19D1E0A7120000427A3 /* Main.storyboard in Resources */,
+				25F3F4971E0BB7EB00FC2906 /* 签到金币音效.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2544B18B1E0A7120000427A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F3F4921E0BB52900FC2906 /* HSSignAlertView.m in Sources */,
+				2544B1B51E0A9083000427A3 /* HSCalendarCell.m in Sources */,
+				2544B19A1E0A7120000427A3 /* ViewController.m in Sources */,
+				2544B1AC1E0A86AA000427A3 /* HSCalendarHeadView.m in Sources */,
+				2544B1BB1E0B7D14000427A3 /* HSCalendarModel.m in Sources */,
+				2544B1971E0A7120000427A3 /* AppDelegate.m in Sources */,
+				25F3F4951E0BB5DD00FC2906 /* CSCommonUtils.m in Sources */,
+				2544B1B21E0A8CFF000427A3 /* HSCalendarViewFlowLayout.m in Sources */,
+				2544B1AF1E0A86F8000427A3 /* HSCalendarView.m in Sources */,
+				2544B1C21E0B99F4000427A3 /* HSSignWithCalendarController.m in Sources */,
+				2544B1B81E0B5C8C000427A3 /* HSCalendarManager.m in Sources */,
+				2544B1941E0A7120000427A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2544B19B1E0A7120000427A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2544B19C1E0A7120000427A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2544B1A01E0A7120000427A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2544B1A11E0A7120000427A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2544B1A41E0A7120000427A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2544B1A51E0A7120000427A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2544B1A71E0A7120000427A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "签到日历/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdd.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2544B1A81E0A7120000427A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "签到日历/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sdd.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2544B18A1E0A7120000427A3 /* Build configuration list for PBXProject "签到日历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2544B1A41E0A7120000427A3 /* Debug */,
+				2544B1A51E0A7120000427A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2544B1A61E0A7120000427A3 /* Build configuration list for PBXNativeTarget "签到日历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2544B1A71E0A7120000427A3 /* Debug */,
+				2544B1A81E0A7120000427A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2544B1871E0A7120000427A3 /* Project object */;
+}
